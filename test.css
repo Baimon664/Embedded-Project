@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Ruluko');
+
+body {
+    background: #3F3F3F;
+    background-blend-mode: luminosity;
+}
+
+.title {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: dashed;
+    border-color: #3F3F3F;
+    height: 25%;
+    min-height: 220px;
+    min-width: 530px;
+}
+
+.name {
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.sub-title {
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 60px;
+    border-style: dashed;
+    border-color: #3F3F3F;
+    min-width: 530px;
+}
+
+.sub {
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.panel {
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: dashed;
+    border-color: #3F3F3F;
+    height: 160px;
+    display: flex;
+    min-width: 530px;
+}
+
+.whitebox {
+    width: 150px;
+    height: 149px;
+    margin-right: 5%;
+
+    background-color: #3F3F3F;
+    background-blend-mode: luminosity;
+    border-radius: 35px;
+    border-color: #FFFFFF;
+    border-width: 5px;
+    border-style: solid;
+    text-align: center;
+}
+
+#status.disconnect {
+    padding-top: 15%;
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #FB0000;
+}
+
+#status.connected {
+    padding-top: 15%;
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #23FB00;
+}
+
+#microphone.disable {
+    padding-top: 15%;
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #FB0000;
+}
+
+#microphone.enable {
+    padding-top: 15%;
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #23FB00;
+}
+
+.text{
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #FFFFFF;    
+}
+
+#led.off {
+    padding-top: 5%;
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #FB0000;
+}
+
+#led.on {
+    padding-top: 5%;
+    font-family: Ruluko;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.1em;
+    
+    color: #23FB00;
+}
+
+.btnpanel {
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: dashed;
+    border-color: #3F3F3F;
+    height: 160px;
+    display: flex;
+    min-width: 640px;
+    padding-right: 5%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.togglebtn {
+    width: 300px;
+    height: 125px;
+
+    background: #656565;
+    border-radius: 75px;
+    border-color: white;
+    border-width: 5px;
+    font-size: 28px;
+    color: white;
+    font-family: Ruluko;
+    margin-right: 30px;
+}
+
+.microphonebyn {
+    width: 300px;
+    height: 125px;
+
+    background: #656565;
+    border-radius: 75px;
+    border-color: white;
+    border-width: 5px;
+    font-size: 28px;
+    font-family: Ruluko;
+    color: white;
+}
